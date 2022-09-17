@@ -3,10 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Satisfy&display=swap");
 
 body {
-  background-color: #FFFFF5;
+  background-color: #ffffff;
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
   color: #444;
+}
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 5px 5px 7px grey;
+  float: left;
+
 }
