@@ -1,5 +1,40 @@
 @media (min-width: 64em) {
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
+  
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-gap: 1%;
+         padding: 1%;
+    }
+    
+    .box1 {
+        grid-column: 1/5;
+        grid-row: 1;
+        background-color: #bddbb0;
+    }
+    
+    .box2 {
+        grid-column: 1;
+        grid-row: 2/5;
+        background-color: #bddbb0;
+    }
+    
+    .box3 {
+        grid-column: 2/4;
+        grid-row: 2/5;
+        background-color: #bddbb0;
+    }
+    
+    .box4 {
+        grid-column: 4;
+        grid-row: 2/3;
+        background-color: #bddbb0;
+    }
+    
+    .box5 {
+        grid-column: 4;
+        grid-row: 3/5;
+        background-color: #bddbb0;
     }
 }
