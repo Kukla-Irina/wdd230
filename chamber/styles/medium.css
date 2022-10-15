@@ -77,7 +77,7 @@
     }
     
     .box5 {
-        grid-column: 2/3;
+        grid-column: 2/4;
         grid-row: 4;
         background-color: #bddbb0;
     }
