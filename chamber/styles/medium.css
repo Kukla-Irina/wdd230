@@ -18,7 +18,7 @@
         padding: 1rem;
         text-align: left;
         text-decoration: none;
-        color: black;
+        color: #5dc5eb;
         font-weight: 700;
         transition: 0.5s;
         font-size: clamp(1rem, 2vmin, 1.5rem);
@@ -81,4 +81,27 @@
         grid-row: 4;
         background-color: #bddbb0;
     }
+    footer {
+        background-color: #2c2e73;
+        padding: 5px 0;
+        display: block;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .footer1 {
+        display: flex;
+        padding: 3%;
+        color: #5dc5eb;
+        }
+        
+        .footer2 {
+        padding: 3%;
+        color: #5dc5eb
+        }
+      
+      footer img {
+        max-width: 50%;
+        padding: 3%;
+      }
 }
