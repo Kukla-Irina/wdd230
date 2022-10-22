@@ -31,7 +31,7 @@
     
     .event {
         grid-column: 1;
-        grid-row: 2/6;
+        grid-row: 2/5;
         background-color: #bddbb0;
     }
     
@@ -44,6 +44,12 @@
     .weather {
         grid-column: 4;
         grid-row: 2/3;
+        background-color: #bddbb0;
+    }
+
+    .join {
+        grid-column: 1;
+        grid-row: 5/6;
         background-color: #bddbb0;
     }
     
