@@ -27,30 +27,38 @@
         grid-column: 1/5;
         grid-row: 1;
         background-color: #bddbb0;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 5px 5px 10px #140b0b;
     }
     
     .event {
         grid-column: 1;
         grid-row: 2/5;
         background-color: #bddbb0;
+        box-shadow: 5px 5px 10px #140b0b;
     }
     
     .newsRelease {
         grid-column: 2/4;
         grid-row: 2/6;
         background-color: #bddbb0;
+        box-shadow: 5px 5px 10px #140b0b;
     }
     
     .weather {
         grid-column: 4;
         grid-row: 2/3;
         background-color: #bddbb0;
+        box-shadow: 5px 5px 10px #140b0b;
     }
 
     .join {
         grid-column: 1;
         grid-row: 5/6;
         background-color: #bddbb0;
+        display: block;
+        box-shadow: 5px 5px 10px #140b0b;
     }
     
     .spotlights {
@@ -61,18 +69,21 @@
         grid-column: 4;
         grid-row: 3/6;
         background-color: #bddbb0;
+        box-shadow: 5px 5px 10px #140b0b;
     }
 
     .spotlight1 {
         grid-column: 1;
         grid-row: 1;
         background-color: #828c73;
+        box-shadow: 5px 5px 10px #140b0b;
     }
 
     .spotlight2 {
         grid-column: 1;
         grid-row: 2;
         background-color: #828c73;
+        box-shadow: 5px 5px 10px #140b0b;
     }
 
     footer {
@@ -81,6 +92,7 @@
         display: flex;
           justify-content: space-between;
         align-items: center;
+        box-shadow: 5px 5px 10px #140b0b;
       }
       
       .footer1 {
@@ -112,8 +124,34 @@
     
       }
 
-    header h3 {
+    h3 {
     padding: 3%;
     }
+
+    .calltoaction{
+        border: solid;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px #140b0b;
+        display: flex;
+        height: 25%;
+        margin: 2%;
+        align-items: center;
+        font-size: large;
+        background-color: #008c45;
+        justify-content: center;
+      }
+    
+      .calltoaction a{
+        padding: 1em 2em;
+        text-decoration: none;
+        color: black;
+      }
+    
+      .calltoaction:hover{
+        background-color: #2c2e73;
+        border-radius: 5px;
+      }
+
+      
       
 }
