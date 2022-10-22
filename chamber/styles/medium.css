@@ -47,7 +47,7 @@
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 250px 250px 250px 250px;
+        grid-template-rows: 250px 250px 250px 250px 250px;
         grid-gap: 2px;
          padding: 1%;
     }
@@ -78,17 +78,17 @@
 
     .join {
         grid-column: 1;
-        grid-row: 4/5;
+        grid-row: 4/6;
         background-color: #bddbb0;
     }
     
     .spotlights {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 3px;
         grid-column: 2/4;
-        grid-row: 4;
+        grid-row: 4/6;
         background-color: #bddbb0;
     }
 
