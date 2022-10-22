@@ -158,3 +158,16 @@ nav {
 .responsive a.ham::before {
 	content: "✖️ ";
 }
+
+.banner{
+  top: 2px;
+  width: 40%;
+  background-color: #008c45;
+  font-size: x-small;
+  border-radius: 10px;
+  margin: 2%;
+}
+
+header h3 {
+padding: 3%;
+}
