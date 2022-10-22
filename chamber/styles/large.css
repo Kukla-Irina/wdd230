@@ -23,31 +23,31 @@
          padding: 1%;
     }
     
-    .box1 {
+    .hero {
         grid-column: 1/5;
         grid-row: 1;
         background-color: #bddbb0;
     }
     
-    .box2 {
+    .event {
         grid-column: 1;
         grid-row: 2/6;
         background-color: #bddbb0;
     }
     
-    .box3 {
+    .newsRelease {
         grid-column: 2/4;
         grid-row: 2/6;
         background-color: #bddbb0;
     }
     
-    .box4 {
+    .weather {
         grid-column: 4;
         grid-row: 2/3;
         background-color: #bddbb0;
     }
     
-    .box5 {
+    .spotlights {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -57,13 +57,13 @@
         background-color: #bddbb0;
     }
 
-    .box51 {
+    .spotlight1 {
         grid-column: 1;
         grid-row: 1;
         background-color: #828c73;
     }
 
-    .box52 {
+    .spotlight2 {
         grid-column: 1;
         grid-row: 2;
         background-color: #828c73;

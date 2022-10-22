@@ -50,27 +50,27 @@ display: flex;
    border-color: black;
 }
 
-.box1 {
+.hero {
   padding: 1%;
     background-color: #bddbb0;
 }
 
-.box2 {
+.event {
   padding: 1%;
     background-color: #bddbb0;
 }
 
-.box3 {
+.newsRelease {
   padding: 1%;
     background-color: #bddbb0;
 }
 
-.box4 {
+.weather {
   padding: 1%;
     background-color: #bddbb0;
 }
 
-.box5 {
+.spotlights {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -79,12 +79,12 @@ display: flex;
     background-color: #bddbb0;
 }
 
-.box51 {
+.spotlight1 {
  padding: 1%;
   background-color: #828c73;
 }
 
-.box52 {
+.spotlight2 {
   padding: 1%;
   background-color: #828c73;
 }
