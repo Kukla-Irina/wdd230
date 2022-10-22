@@ -1,5 +1,6 @@
-let date = new Date();
-let year = date.getFullYear();
+const date = new Date();
+const year = date.getFullYear();
+const day = date.getDay ();
 document.getElementById('year').textContent = year;
 document.getElementById('updated').textContent = document.lastModified;
 
@@ -22,3 +23,20 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
+const bannerEl = document.querySelector('.banner');
+
+function bannerBlock() {
+bannerEl.style.display = "block";
+}
+
+function bannerNone() {
+	bannerEl.style.display = "none";
+}
+
+if (day === 1 || day === 2){
+    bannerBlock();
+}
+
+else {
+    bannerNone();
+}
