@@ -70,10 +70,15 @@ display: flex;
     background-color: #bddbb0;
 }
 
+.join {
+  padding: 1%;
+  background-color: #bddbb0;
+}
+
 .spotlights {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   padding: 1%;
   grid-gap: 3px;
     background-color: #bddbb0;
@@ -81,6 +86,7 @@ display: flex;
 
 .spotlight1 {
  padding: 1%;
+ 
   background-color: #828c73;
 }
 
