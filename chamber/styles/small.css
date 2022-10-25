@@ -24,6 +24,11 @@ main img {
   height: 150px;
   width: auto;
   margin: auto;
+  padding: 2%;
+}
+
+main h3 {
+  padding: 3%;
 }
 
 .headings {
@@ -65,16 +70,25 @@ display: flex;
 .event {
   padding: 1%;
     background-color: #bddbb0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .newsRelease {
   padding: 1%;
     background-color: #bddbb0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .weather {
   padding: 1%;
     background-color: #bddbb0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .join {
@@ -83,20 +97,28 @@ display: flex;
 }
 
 .spotlights {
-
+ display: grid;
+ grid-gap: 3px;
   padding: 1%;
     background-color: #bddbb0;
 }
 
 .spotlight1 {
  padding: 1%;
- 
+ grid-row: 1;
   background-color: #828c73;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .spotlight2 {
   padding: 1%;
+  grid-row: 2;
   background-color: #828c73;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 footer {

@@ -37,6 +37,9 @@
         grid-row: 2/5;
         background-color: #bddbb0;
         box-shadow: 5px 5px 10px #140b0b;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     
     .newsRelease {
@@ -51,6 +54,10 @@
         grid-row: 2/3;
         background-color: #bddbb0;
         box-shadow: 5px 5px 10px #140b0b;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
     }
 
     .join {
@@ -77,6 +84,10 @@
         grid-row: 1;
         background-color: #828c73;
         box-shadow: 5px 5px 10px #140b0b;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
     }
 
     .spotlight2 {
@@ -84,6 +95,10 @@
         grid-row: 2;
         background-color: #828c73;
         box-shadow: 5px 5px 10px #140b0b;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+  
     }
 
     footer {
@@ -126,6 +141,7 @@
 
     h3 {
     padding: 3%;
+    justify-content: center;
     }
 
     .calltoaction{
