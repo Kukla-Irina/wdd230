@@ -169,6 +169,7 @@
             background-color: #008c45;
             justify-content: center;
             min-height: 1fr;
+            max-height: 50px;
           }
         
           .calltoaction a{
