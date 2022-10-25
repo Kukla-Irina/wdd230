@@ -52,10 +52,14 @@
          padding: 1%;
     }
     
-    .hero {
+    .newsRelease {
         grid-column: 1/4;
         grid-row: 1;
         background-color: #bddbb0;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 10px #140b0b;
+        align-items: center;
     }
     
     .event {
@@ -65,15 +69,17 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+   
     }
     
-    .newsRelease {
+    .hero {
         grid-column: 2/4;
         grid-row: 2/4;
         background-color: #bddbb0;
         display: flex;
         align-items: center;
         flex-direction: column;
+     
     }
     
     .weather {

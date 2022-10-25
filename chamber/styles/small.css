@@ -62,9 +62,12 @@ display: flex;
    border-color: black;
 }
 
-.hero {
+.newsRelease {
   padding: 1%;
     background-color: #bddbb0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .event {
@@ -75,7 +78,7 @@ display: flex;
     flex-direction: column;
 }
 
-.newsRelease {
+.hero {
   padding: 1%;
     background-color: #bddbb0;
     display: flex;
