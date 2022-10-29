@@ -29,6 +29,12 @@ img[data-src] {
   transition: filter 0.5s;
 }
 
+.discoverimg img {
+  margin: 2%;
+  width: 60%;
+  height: auto;
+}
+
 .discoverimg img:hover {
   filter: contrast(50%);
 }

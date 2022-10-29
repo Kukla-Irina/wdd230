@@ -18,10 +18,13 @@ header {
 .discoverimg {
   background-color: #bddbb0;
   box-shadow: 5px 5px 10px #140b0b;
+  max-width: 100%;
 }
 
 .discoverimg img {
-  padding: 2%;
+  margin: 2%;
+  width: 96%;
+  height: auto;
 }
 
 img[data-src] {

@@ -15,6 +15,13 @@
         transition: filter 0.5s;
       }
 
+
+      .discoverimg img {
+        margin: 2%;
+        width: 96%;
+        height: auto;
+      }
+
     .discoverimg img:hover {
         filter: contrast(50%);
     }
