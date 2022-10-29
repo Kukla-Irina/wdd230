@@ -28,6 +28,10 @@ img[data-src] {
   filter: blur(0em);
   transition: filter 0.5s;
 }
+
+.discoverimg img:hover {
+  filter: contrast(50%);
+}
   
     .content {
         display: grid;

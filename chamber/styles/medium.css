@@ -15,6 +15,11 @@
         transition: filter 0.5s;
       }
 
+    .discoverimg img:hover {
+        filter: contrast(50%);
+    }
+    
+
 	nav {
       padding: 1%;
     }
