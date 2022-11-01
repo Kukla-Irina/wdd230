@@ -99,5 +99,3 @@ if (numVisits !== 0) {
 numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
-// show todays date.
-todayDisplay.textContent = Date.now();
