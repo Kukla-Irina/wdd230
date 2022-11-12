@@ -204,5 +204,7 @@ img[data-src] {
       }
 
      
-      
+    .list section img {
+      display: block;
+    }
 }
