@@ -150,6 +150,8 @@ display: flex;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 5px 5px 10px #140b0b;
+    overflow: auto;
 }
 
 .event {
@@ -158,6 +160,7 @@ display: flex;
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: 5px 5px 10px #140b0b;
 }
 
 .hero {
@@ -166,6 +169,8 @@ display: flex;
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: 5px 5px 10px #140b0b;
+    overflow: auto;
 }
 
 .weather {
@@ -174,13 +179,16 @@ display: flex;
     display: flex;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
+    box-shadow: 5px 5px 10px #140b0b;
+    overflow: auto;
 }
 
 .join {
   padding: 1%;
   background-color: #bddbb0;
+  box-shadow: 5px 5px 10px #140b0b;
 }
 
 .spotlights {
@@ -188,6 +196,7 @@ display: flex;
  grid-gap: 3px;
   padding: 1%;
     background-color: #bddbb0;
+    box-shadow: 5px 5px 10px #140b0b;
 }
 
 .spotlight1 {
@@ -197,6 +206,7 @@ display: flex;
   display: flex;
   align-items: center;
   flex-direction: column;
+  box-shadow: 5px 5px 10px #140b0b;
 }
 
 .spotlight2 {
@@ -206,6 +216,7 @@ display: flex;
   display: flex;
   align-items: center;
   flex-direction: column;
+  box-shadow: 5px 5px 10px #140b0b;
 }
 
 footer {
@@ -213,6 +224,7 @@ footer {
   padding: 5px 0;
   display: block;
   justify-content: center;
+  box-shadow: 5px 5px 10px #140b0b;
 }
 
 .footer1 {
@@ -306,6 +318,7 @@ h2 {
       font-size: small;
       background-color: #008c45;
       justify-content: center;
+      box-shadow: 5px 5px 10px #140b0b;
     }
   
     .calltoaction a{

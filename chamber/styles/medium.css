@@ -86,6 +86,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        box-shadow: 5px 5px 10px #140b0b;
     }
     
     .event {
@@ -95,6 +96,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        box-shadow: 5px 5px 10px #140b0b;
    
     }
     
@@ -105,6 +107,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        box-shadow: 5px 5px 10px #140b0b;
      
     }
     
@@ -115,14 +118,17 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-content: center;
+        box-shadow: 5px 5px 10px #140b0b;
+        overflow: auto;
     }
 
     .join {
         grid-column: 1;
         grid-row: 4/7;
         background-color: #bddbb0;
+        box-shadow: 5px 5px 10px #140b0b;
     }
     
     .spotlights {
@@ -133,6 +139,7 @@
         grid-column: 2/4;
         grid-row: 4/7;
         background-color: #bddbb0;
+        box-shadow: 5px 5px 10px #140b0b;
     }
 
     .spotlight1 {
@@ -142,6 +149,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        box-shadow: 5px 5px 10px #140b0b;
     }
 
     .spotlight2 {
@@ -151,6 +159,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        box-shadow: 5px 5px 10px #140b0b;
     }
 
 
@@ -160,6 +169,7 @@
         display: block;
         justify-content: center;
         align-items: center;
+        box-shadow: 5px 5px 10px #140b0b;
       }
       
       .footer1 {
@@ -203,6 +213,7 @@
             background-color: #008c45;
             justify-content: center;
             max-height: 50px;
+            box-shadow: 5px 5px 10px #140b0b;
           }
         
           .calltoaction a{
