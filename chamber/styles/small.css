@@ -452,7 +452,7 @@ h2 {
 
   .spotlights a {
     text-decoration: none;
-    color: #2c2e73;
+    color: #000000;
   }
 
   @media (max-width: 64em) {
