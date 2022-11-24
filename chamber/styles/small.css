@@ -426,7 +426,22 @@ h2 {
   .list section img {
     display: none; /* smaller viewports only */
   }
-  
+
+  picture {
+    display: flex;
+    justify-content: center;
+  }
+
+  .discoverimg p {
+    text-align: center;
+    border: #2c2e73 solid 1px;
+    margin: 2%;
+  }
+
+  .lazyload {
+    box-shadow: 5px 5px 10px #140b0b;
+  }
+
   @media (max-width: 64em) {
     .list section {
       flex-wrap: wrap;
