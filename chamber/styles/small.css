@@ -442,6 +442,12 @@ h2 {
     box-shadow: 5px 5px 10px #140b0b;
   }
 
+  footer a {
+    text-decoration: none;
+    display: block;
+    color: #5dc5eb;
+  }
+
   @media (max-width: 64em) {
     .list section {
       flex-wrap: wrap;
