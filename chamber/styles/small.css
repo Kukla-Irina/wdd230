@@ -381,11 +381,11 @@ h2 {
   
   article,
   section {
-    margin: 0.75rem;
+    margin: 1%;
   }
   
   section {
-    padding: 0.5rem;
+    padding: 1%;
   }
   
   .grid {
@@ -427,9 +427,11 @@ h2 {
     display: none; /* smaller viewports only */
   }
 
-  picture {
+ .discoverimg picture {
     display: flex;
     justify-content: center;
+    width: auto;
+    height: auto;
   }
 
   .discoverimg p {
