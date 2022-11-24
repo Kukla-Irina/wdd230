@@ -86,11 +86,11 @@ img[data-src] {
         background-color: #bddbb0;
         box-shadow: 5px 5px 10px #140b0b;
         display: flex;
+        flex-direction: column;
         align-items: center;
         flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
       
     }
 
@@ -113,6 +113,10 @@ img[data-src] {
         box-shadow: 5px 5px 10px #140b0b;
     }
 
+    .spotlights p {
+      margin: 1%;
+    }
+   
     .spotlight1 {
         grid-column: 1;
         grid-row: 1;

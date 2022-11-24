@@ -185,6 +185,22 @@ display: flex;
     overflow: auto;
 }
 
+img#weather-icon {
+  width: 50%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .join {
   padding: 1%;
   background-color: #bddbb0;
@@ -194,13 +210,13 @@ display: flex;
 .spotlights {
  display: grid;
  grid-gap: 3px;
-  padding: 1%;
+
     background-color: #bddbb0;
     box-shadow: 5px 5px 10px #140b0b;
 }
 
 .spotlight1 {
- padding: 1%;
+
  grid-row: 1;
   background-color: #828c73;
   display: flex;
@@ -210,7 +226,7 @@ display: flex;
 }
 
 .spotlight2 {
-  padding: 1%;
+
   grid-row: 2;
   background-color: #828c73;
   display: flex;
