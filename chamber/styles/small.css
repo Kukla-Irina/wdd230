@@ -448,6 +448,11 @@ h2 {
     color: #5dc5eb;
   }
 
+  .spotlights a {
+    text-decoration: none;
+    color: #2c2e73;
+  }
+
   @media (max-width: 64em) {
     .list section {
       flex-wrap: wrap;
