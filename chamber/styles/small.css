@@ -9,6 +9,13 @@ main {
   background-color: #bddbb0;
 }
 
+form {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #140b0b;
+    padding: 0px 20px;
+    margin: 1%;
+}
+
 form fieldset {
   margin: 1%;
   border: 1px solid #2c2e73;
@@ -453,6 +460,18 @@ h2 {
   .spotlights a {
     text-decoration: none;
     color: #000000;
+  }
+
+  .joinpage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefits {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #140b0b;
+    padding: 0px 20px;
+    margin: 1%;
   }
 
   @media (max-width: 64em) {

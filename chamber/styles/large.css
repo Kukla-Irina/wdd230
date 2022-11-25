@@ -15,11 +15,6 @@
 		display: none;
 	}
 
-  form {
-    max-width: 50%;
-    margin-left: 25%;
-  }
-
   .hero img{
     width: 100%;
     height: 100%;
@@ -210,5 +205,22 @@ img[data-src] {
      
     .list section img {
       display: block;
+    }
+
+    .joinpage {
+      display: grid;
+      grid-template-columns: 49% 3% 49%;
+      grid-template-rows: 1fr;
+      padding: 20px 80px;
+    }
+
+    .form {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    .benefits {
+      grid-column: 3/4;
+      grid-row: 1/2;
     }
 }
