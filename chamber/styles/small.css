@@ -371,7 +371,6 @@ h2 {
 
 
   .menu {
-    margin: 1rem auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
     background-color:#bddbb0;
@@ -386,11 +385,6 @@ h2 {
     font-weight: bold;
   }
   
-  article,
-  section {
-    margin: 1%;
-  }
-  
   section {
     padding: 1%;
   }
@@ -399,6 +393,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
+    background-color: #bddbb0;
+    padding: 2%;
   }
   
   .list {
