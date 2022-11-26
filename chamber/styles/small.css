@@ -37,7 +37,7 @@ form label.top input {
   padding: .75rem;
   color: rgb(56, 56, 56);
   width: 100%;
-  max-width: 18.5rem;
+  max-width: 90%;
   background-color: rgb(255, 255, 255);
 }
 
@@ -48,10 +48,10 @@ form label.sbs {
 }
 
 textarea {
-  min-width: 20rem;
   min-height: 10rem;
   border-radius: 4px;
   border: solid 1px #2c2e73;
+  width: 90%;
 }
 
 form input.submitbtn {
