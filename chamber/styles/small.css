@@ -477,6 +477,10 @@ h2 {
 
   }
 
+  .maincontacts {
+    display: flex;
+  }
+
   @media (max-width: 64em) {
     .list section {
       flex-wrap: wrap;
