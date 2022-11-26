@@ -469,6 +469,14 @@ h2 {
     margin: 1%;
   }
 
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+  }
+
   @media (max-width: 64em) {
     .list section {
       flex-wrap: wrap;
