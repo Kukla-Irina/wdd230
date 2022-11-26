@@ -223,4 +223,16 @@ img[data-src] {
       grid-column: 3/4;
       grid-row: 1/2;
     }
+
+    .maincontacts {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+
+
+  .maincontacts img {
+    width: 60%;
+    height: 60%;
+  }
 }

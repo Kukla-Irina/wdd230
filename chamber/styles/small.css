@@ -478,7 +478,12 @@ h2 {
   }
 
   .maincontacts {
-    display: flex;
+    display: block;
+  }
+
+  .maincontacts img {
+    width: 100%;
+    height: 100%;
   }
 
   @media (max-width: 64em) {
