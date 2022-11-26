@@ -236,5 +236,13 @@
             background-color: #2c2e73;
             border-radius: 5px;
           }
+
+          form label.top input {
+            max-width: 70%;
+          }
+
+          textarea {
+            width: 70%;
+          }
     
 }
