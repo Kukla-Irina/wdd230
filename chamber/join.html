@@ -1,87 +1,163 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Присоединяйся</title>
-    <meta name="description" content="Project page of Irina Kukla for WDD 230: Web Frontend Development at Brigham Young University - Idaho assignments">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
-</head>
+    <meta
+      name="description"
+      content="Project page of Irina Kukla for WDD 230: Web Frontend Development at Brigham Young University - Idaho assignments"
+    />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
 
-<body>    
+  <body>
     <header>
-        <div class="headings"><picture><img src="images/4.png" alt="logo" ></picture>
-        <div class="headings1"><h2>Объединенная Палата</h2>
-       <div class="date"></div></div></div>
-       <div class="banner"><h3>🤝🏼 Присоединяйтесь к нашей встрече торговой палаты в по средам в 19:00</h3></div>
-       <div class="social">
-        <a target="_blank" href="http://facebook.com"><img src="images/fb.png" alt="Facebook Logo"/></a>
-        <a target= "_blank" href="https://twitter.com"><img src="images/tw.png" alt="Twitter Logo"></a>
+      <div class="headings">
+        <picture><img src="images/4.png" alt="logo" /></picture>
+        <div class="headings1">
+          <h2>Объединенная Палата</h2>
+          <div class="date"></div>
+        </div>
       </div>
-        <nav>
-           <ul class="navigation">
-            <li><a class="ham" href="#">Меню</a></li>
-            <li><a href="index.html">Домой</a></li>
-            <li><a href="discover.html">Исследуй</a></li>
-            <li><a href="directory.html">Каталог</a></li>
-            <li><a href="join.html">Присоединяйся</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-	</ul>
-        </nav>
+      <div class="banner">
+        <h3>
+          🤝🏼 Присоединяйтесь к нашей встрече торговой палаты в по средам в
+          19:00
+        </h3>
+      </div>
+      <div class="social">
+        <a target="_blank" href="http://facebook.com"
+          ><img src="images/fb.png" alt="Facebook Logo"
+        /></a>
+        <a target="_blank" href="https://twitter.com"
+          ><img src="images/tw.png" alt="Twitter Logo"
+        /></a>
+      </div>
+      <nav>
+        <ul class="navigation">
+          <li><a class="ham" href="#">Меню</a></li>
+          <li><a href="index.html">Домой</a></li>
+          <li><a href="discover.html">Исследуй</a></li>
+          <li><a href="directory.html">Каталог</a></li>
+          <li><a href="join.html">Присоединяйся</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="joinpage">
+      <div class="joinpage">
         <form method="get" action="thankyou.html">
-        <h2>Регистрация</h2>
-        <fieldset>
+          <h2>Регистрация</h2>
+          <fieldset>
             <legend>Информация</legend>
-         <label class="top">Имя* <input type="text" name="fname" required></label>
-         <label class="top">Фамилия* <input type="text" name="lname" required></label>
-         <label class="top">Должность<input type="text" name="buisness position" pattern="[A-Za-zА-Яа-яЁё.\s-]{7,}"></label>
-         <label class="top">Email* <input type="email" name="email" required placeholder="example@gmail.com"></label>
-         <label class="top">Телефон* <input type="tel" name="phone" required placeholder="79001112233"></label>
-         <label class="top">Название бизнеса<input type="text" name="buisness name"></label>
-        </fieldset>
-        <fieldset>
+            <label class="top"
+              >Имя* <input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Фамилия* <input type="text" name="lname" required
+            /></label>
+            <label class="top"
+              >Должность<input
+                type="text"
+                name="buisness position"
+                pattern="[A-Za-zА-Яа-яЁё.\s-]{7,}"
+            /></label>
+            <label class="top"
+              >Email*
+              <input
+                type="email"
+                name="email"
+                required
+                placeholder="example@gmail.com"
+            /></label>
+            <label class="top"
+              >Телефон*
+              <input type="tel" name="phone" required placeholder="79001112233"
+            /></label>
+            <label class="top"
+              >Название бизнеса<input type="text" name="buisness name"
+            /></label>
+          </fieldset>
+          <fieldset>
             <legend>Уровень подписки</legend>
             <div>Выберите подписку</div>
-            <label class="sbs"><input type="radio" name="membership" value="np">Без подписки</label>
-            <label class="sbs"><input type="radio" name="membership" value="bronze">Бронза</label>
-            <label class="sbs"><input type="radio" name="membership" value="silver">Серебро</label>
-            <label class="sbs"><input type="radio" name="membership" value="gold">Золото</label>
-        </fieldset>
-        <fieldset>
+            <label class="sbs"
+              ><input type="radio" name="membership" value="np" />Без
+              подписки</label
+            >
+            <label class="sbs"
+              ><input
+                type="radio"
+                name="membership"
+                value="bronze"
+              />Бронза</label
+            >
+            <label class="sbs"
+              ><input
+                type="radio"
+                name="membership"
+                value="silver"
+              />Серебро</label
+            >
+            <label class="sbs"
+              ><input
+                type="radio"
+                name="membership"
+                value="gold"
+              />Золото</label
+            >
+          </fieldset>
+          <fieldset>
             <legend>Описание бизнеса</legend>
             <div>Опишите коротко ваш бизнес:</div>
             <label class="top"><textarea name="description"></textarea></label>
-            <input type="hidden" name="datetime">
-        </fieldset>
-        <input class="submitbtn" type="submit" value="Присоединиться к палате"> 
-    </form>
-       <div class="benefits">
-       <h2>Описание подписок</h2>
-        <h3>Без подписки</h3>
-<p>Полное использование бесплатных сервисов.</p>
-<h3>Бронзовый тариф</h3>
-<p>Вы получаете тренинги и отдельную линию поддержки.
-    Цена: 1299₽/месяц</p>
-<h3>Серебряный тариф</h3>
-<p>Вы получаете все преимущества Бронзового тарифа, а также ваша реклама будет на главной странице сайта.
-    Цена: 2399₽/месяц</p>
-<h3>Золотой тариф</h3>
-<p>Вы получаете все преимущества серебряного тарифа, а также кэш бэк бонусами в размере 20% стоимости тарифа на продвижение рекламы и персонального менеджера.
-Цена: 6199₽/месяц</p>
-    </div>
-    </div>
+            <input type="hidden" name="datetime" />
+          </fieldset>
+          <input
+            class="submitbtn"
+            type="submit"
+            value="Присоединиться к палате"
+          />
+        </form>
+        <div class="benefits">
+          <h2>Описание подписок</h2>
+          <h3>Без подписки</h3>
+          <p>Полное использование бесплатных сервисов.</p>
+          <h3>Бронзовый тариф</h3>
+          <p>
+            Вы получаете тренинги и отдельную линию поддержки. Цена: 1299₽/месяц
+          </p>
+          <h3>Серебряный тариф</h3>
+          <p>
+            Вы получаете все преимущества Бронзового тарифа, а также ваша
+            реклама будет на главной странице сайта. Цена: 2399₽/месяц
+          </p>
+          <h3>Золотой тариф</h3>
+          <p>
+            Вы получаете все преимущества серебряного тарифа, а также кэш бэк
+            бонусами в размере 20% стоимости тарифа на продвижение рекламы и
+            персонального менеджера. Цена: 6199₽/месяц
+          </p>
+        </div>
+      </div>
     </main>
     <footer>
-        <div class="footer1"><picture><img src="images/4.webp" alt="logo" ></picture>
-        <p>&copy; <span id="year"></span> | Irina Kukla | WDD 230 Project | Объединенная палата | +79990005599 Санкт-Петербург, наб. Фонтанки 189</p></div>
-        <p class="footer2">Последнее редактирование: <span id="updated"></span><br>Количество посещений: <span class="visits"></span></p>
+      <div class="footer1">
+        <picture><img src="images/4.webp" alt="logo" /></picture>
+        <p>
+          &copy; <span id="year"></span> | Irina Kukla | WDD 230 Project |
+          Объединенная палата | +79990005599 Санкт-Петербург, наб. Фонтанки 189
+        </p>
+      </div>
+      <p class="footer2">
+        Последнее редактирование: <span id="updated"></span><br />Количество
+        посещений: <span class="visits"></span>
+      </p>
     </footer>
     <script src="scripts/scripts.js"></script>
-</body>
+  </body>
 </html>
