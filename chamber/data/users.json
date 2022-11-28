@@ -1,0 +1,77 @@
+{
+    "users": [
+      {
+        "name": "Зоо Планета",
+        "adress": "Ленина 145",
+        "phone": "+79000000000",
+        "website": "zooplanet.ru",
+        "image": "images/zoo.png",
+        "membership": "Без подписки"
+      },
+      {
+        "name": "Курьерская служба",
+        "adress": "Набережная Невы 98",
+        "phone": "+79880000000",
+        "website": "courierservice.ru",
+        "image": "images/tr.png",
+        "membership": "Серебро"
+      },
+      {
+        "name": "Арт кружок",
+        "adress": "Пражская 18",
+        "phone": "+79500000000",
+        "website": "art.ru",
+        "image": "images/paint.png",
+        "membership": "Бронза"
+      },
+      {
+        "name": "Фермерские товары",
+        "adress": "Крсноармейская 145",
+        "phone": "+79560000000",
+        "website": "farmshop.ru",
+        "image": "images/farm.png",
+        "membership": "Золото"
+      },
+      {
+        "name": "Агенство праздников",
+        "adress": "Ленина 32",
+        "phone": "+79670000000",
+        "website": "holiday.ru",
+        "image": "images/balloon.png",
+        "membership": "Без подписки"
+      },
+      {
+        "name": "Организация свадеб",
+        "adress": "Площадь Восстания 15",
+        "phone": "+79320000000",
+        "website": "wedding.ru",
+        "image": "images/wedding.png",
+        "membership": "Без подписки"
+      },
+      {
+        "name": "Ремонт",
+        "adress": "Набережная Фонтанки 45",
+        "phone": "+79990000000",
+        "website": "repair.ru",
+        "image": "images/tool.png",
+        "membership": "Золото"
+      },
+      {
+        "name": "Сумки",
+        "adress": "Адмиралтейская 14",
+        "phone": "+79780000000",
+        "website": "bagshop.ru",
+        "image": "images/bag.png",
+        "membership": "Золото"
+      },
+      {
+        "name": "Садоводство",
+        "adress": "Красивая 132",
+        "phone": "+79110000000",
+        "website": "plant.ru",
+        "image": "images/plant.png",
+        "membership": "Серебро"
+      }
+    ]
+  }
+  
