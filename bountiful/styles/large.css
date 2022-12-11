@@ -1,0 +1,15 @@
+@media (min-width: 64em) {
+
+    header {
+        display: flex;
+    }
+
+    .headings {
+        display: flex;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: stretch;
+    }
+}
