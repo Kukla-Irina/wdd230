@@ -24,49 +24,31 @@
       filter: contrast(50%);
     }
   
-    nav {
-      padding: 1%;
-    }
     .navigation {
-      list-style: none;
-      padding: 0;
-    }
-    .navigation li:first-child {
-      display: block;
-    }
-    .navigation li {
-      display: none;
-    }
-    .navigation a {
-      display: block;
-      padding: 1rem;
-      text-align: left;
-      text-decoration: none;
-      color: #000000;
-      font-weight: 700;
-      transition: 0.5s;
-      font-size: clamp(1rem, 2vmin, 1.5rem);
-    }
-  
-    .navigation a.ham::before {
-      content: "🟰 ";
-    }
-  
-    .navigation a:hover {
-      color: white;
-      background-color: black;
-    }
-  
-    /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-        <ul class="navigation responsive">
-      */
-    .responsive li {
-      display: block;
-    }
-  
-    .responsive a.ham::before {
-      content: "✖️ ";
-    }
+        display: flex;
+      }
+
+      .navigation ul {
+         padding: 3%;
+      }
+      .navigation li {
+        display: block;
+        flex: 1 1 auto;
+      }
+      .navigation a {
+        text-align: center;
+        color: #000000;
+      }
+      .navigation li:first-child {
+        display: none;
+      }
+
+      nav {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+    
     
     footer {
       background-color: #883955;
