@@ -1,15 +1,106 @@
 @media (min-width: 64em) {
+        .navigation {
+          display: flex;
+        }
 
-    header {
-        display: flex;
-    }
+        .navigation ul {
+           padding: 2%;
+        }
+        .navigation li {
+          display: block;
+          flex: 1 1 auto;
+        }
+        .navigation a {
+          text-align: center;
+          color: #000000;
+        }
+        .navigation li:first-child {
+          display: none;
+        }
 
-    .headings {
-        display: flex;
-    }
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      
+        .hero img {
+          width: 100%;
+          height: 100%;
+        }
+      
+        img[data-src] {
+          filter: blur(0.2em);
+        }
+      
+        img {
+          filter: blur(0em);
+          transition: filter 0.5s;
+        }
+      
+        .discoverimg img {
+          margin: 2%;
+          width: 60%;
+          height: auto;
+        }
+      
+        .discoverimg img:hover {
+          filter: contrast(50%);
+        }
+ 
+        footer {
+          background-color: #883955;
+          padding: 5px 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+      
+        footer img {
+          max-width: 50%;
+          height: auto;
+          padding: 3%;
+        }
+   
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 250px 250px 250px 250px;
+ 
+        }
+        nav {
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
 
-    .navigation {
-        display: flex;
-        align-items: stretch;
-    }
-}
+        .calltoaction {
+            grid-column: 3/5;
+            grid-row: 1/2;
+            display: flex;
+    
+        }
+
+        .weather {
+            grid-column: 1/2;
+            grid-row: 2/5;
+        }
+
+        .drinks {
+            grid-column: 2/3;
+            grid-row: 2/5;
+        }
+
+        .coastal {
+            grid-column: 3/5;
+            grid-row: 2/5;
+        }
+
+        .fru {
+            object-fit: cover;
+            height: auto;
+            width: 200%;
+        }
+
+      }
+      
