@@ -84,12 +84,12 @@
   }
 
   .drinks {
-    grid-column: 2/3;
+    grid-column: 4/5;
     grid-row: 2/5;
   }
 
   .coastal {
-    grid-column: 3/5;
+    grid-column: 2/4;
     grid-row: 2/5;
   }
 
