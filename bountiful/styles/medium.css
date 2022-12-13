@@ -14,12 +14,6 @@
       transition: filter 0.5s;
     }
   
-    .discoverimg img {
-      margin: 2%;
-      width: 96%;
-      height: auto;
-    }
-  
     .discoverimg img:hover {
       filter: contrast(50%);
     }
@@ -108,6 +102,27 @@
         object-fit: cover;
         height: auto;
         width: 200%;
+    }
+
+    .calltoaction {
+      position: relative;
+    }
+    
+    .middle {
+      opacity: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .text {
+      background-color: #73956f;
+      color: #000000;
+      padding: 16px 32px;
+      border: #000000 solid 3px;
     }
 
   }
