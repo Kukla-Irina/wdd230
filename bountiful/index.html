@@ -53,7 +53,37 @@
         </div>
         <div class="coastal">Coastal</div>
         <div class="drinks">Drinks</div>
-        <div class="weather">Weather</div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+              </figure>
+        <div class="condition">
+        <p>Currently: <span id="cur"></span></p>
+        <p>Temperature: <span id="temp"></span>°F</p>
+        <p>Humidity: <span id="hum"></span>%</p>
+    </div>
+        <h2>3 Day Forecast</h2>
+    <div class="forecast">
+        <section class="days">
+          <div class="forecast-day"></div>
+          <div class="forecast-icon"><img src="#" alt="" class="weather-icon"></div>
+            <div class="forecast-max"></div>
+        </section>
+  
+        <section class="days">
+          <div class="forecast-day"></div>
+          <div class="forecast-icon"><img src="#" alt="" class="weather-icon"></div>
+          <div class="forecast-max"></div>
+        </section>
+  
+        <section class="days">
+          <div class="forecast-day"></div>
+          <div class="forecast-icon"><img src="#" alt="" class="weather-icon"></div>
+            <div class="forecast-max"></div>
+        </section>
+        </div>
+    </div>
       </div>
     </main>
     <footer>
@@ -81,5 +111,6 @@
       </p>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>
