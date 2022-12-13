@@ -92,12 +92,14 @@
   .coastal {
     grid-column: 1/3;
     grid-row: 3/5;
+    display: flex;
   }
 
-  .fru {
+  .home-image {
     object-fit: cover;
     height: auto;
-    width: 200%;
+    width: 100%;
+    opacity: 0.4;
   }
 
   .calltoaction {
@@ -120,4 +122,14 @@
     padding: 16px 32px;
     border: #000000 solid 3px;
   }
+
+  .text2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
 }

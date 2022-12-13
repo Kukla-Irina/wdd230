@@ -78,6 +78,7 @@ main {
 .coastal {
   border: 5px solid #140b0b;
   background-color: #c0fdfb;
+  display: flex;
 }
 
 form {
@@ -322,14 +323,19 @@ footer a {
   display: block;
   color: #c0fdfb;
 }
-.fru {
+.home-image {
   object-fit: cover;
   height: auto;
   width: 100%;
+  opacity: 0.4;
 }
 
 @media (max-width: 32.5em) {
   .calltoaction {
+    position: relative;
+  }
+
+  .coastal {
     position: relative;
   }
 
@@ -348,5 +354,14 @@ footer a {
     color: #000000;
     padding: 16px 32px;
     border: #000000 solid 3px;
+  }
+
+  .text2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
   }
 }

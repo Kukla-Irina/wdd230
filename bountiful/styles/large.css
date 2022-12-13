@@ -91,6 +91,7 @@
   .coastal {
     grid-column: 2/4;
     grid-row: 2/5;
+    display: flex;
   }
 
   .fru {
@@ -103,7 +104,7 @@
     position: relative;
   }
 
-  .fru {
+  .home-image {
     opacity: 1;
     display: block;
     width: 100%;
@@ -123,11 +124,19 @@
     text-align: center;
   }
 
-  .calltoaction:hover .fru {
+  .calltoaction:hover .home-image {
     opacity: 0.3;
   }
 
   .calltoaction:hover .middle {
+    opacity: 1;
+  }
+
+  .coastal:hover .home-image {
+    opacity: 0.3;
+  }
+
+  .coastal:hover .middle {
     opacity: 1;
   }
 
@@ -136,4 +145,19 @@
     color: #000000;
     padding: 16px 32px;
   }
+  .text2 {
+    transition: 0.5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .coastal:hover .text2 {
+    opacity: 1;
+  }
+
 }
