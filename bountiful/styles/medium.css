@@ -1,129 +1,123 @@
 @media only screen and (min-width: 32.5em) {
-    .hero img {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-    }
-  
-    img[data-src] {
-      filter: blur(0.2em);
-    }
-  
-    img {
-      filter: blur(0em);
-      transition: filter 0.5s;
-    }
-  
-    .discoverimg img:hover {
-      filter: contrast(50%);
-    }
-  
-    .navigation {
-        display: flex;
-      }
-
-      .navigation ul {
-         padding: 3%;
-      }
-      .navigation li {
-        display: block;
-        flex: 1 1 auto;
-      }
-      .navigation a {
-        text-align: center;
-        color: #000000;
-      }
-      .navigation li:first-child {
-        display: none;
-      }
-
-      nav {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
-    
-    
-    footer {
-      background-color: #883955;
-      padding: 5px 0;
-      display: block;
-      justify-content: center;
-      align-items: center;
-    }
-  
-  
-    header h3 {
-      padding: 3%;
-    }
-  
-    form label.top input {
-      max-width: 70%;
-    }
-  
-    textarea {
-      width: 70%;
-    }
-
-    .content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(6, 250px);
-
-    }
-    nav {
-        grid-column: 1/3;
-        grid-row: 1/1;
-    }
-
-    .calltoaction {
-        grid-column: 1/3;
-        grid-row: 2/3;
-        display: flex;
-
-    }
-
-    .weather {
-        grid-column: 1/2;
-        grid-row: 5/7;
-    }
-
-    .drinks {
-        grid-column: 2/3;
-        grid-row: 5/7;
-    }
-
-    .coastal {
-        grid-column: 1/3;
-        grid-row: 3/5;
-    }
-
-    .fru {
-        object-fit: cover;
-        height: auto;
-        width: 200%;
-    }
-
-    .calltoaction {
-      position: relative;
-    }
-    
-    .middle {
-      opacity: 1;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    
-    .text {
-      background-color: #73956f;
-      color: #000000;
-      padding: 16px 32px;
-      border: #000000 solid 3px;
-    }
-
+  .hero img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
-  
+
+  img[data-src] {
+    filter: blur(0.2em);
+  }
+
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+  .discoverimg img:hover {
+    filter: contrast(50%);
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation ul {
+    padding: 3%;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+    color: #000000;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    background-color: #883955;
+    padding: 5px 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h3 {
+    padding: 3%;
+  }
+
+  form label.top input {
+    max-width: 70%;
+  }
+
+  textarea {
+    width: 70%;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 250px);
+  }
+  nav {
+    grid-column: 1/3;
+    grid-row: 1/1;
+  }
+
+  .calltoaction {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: flex;
+  }
+
+  .weather {
+    grid-column: 1/2;
+    grid-row: 5/7;
+  }
+
+  .drinks {
+    grid-column: 2/3;
+    grid-row: 5/7;
+  }
+
+  .coastal {
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+
+  .fru {
+    object-fit: cover;
+    height: auto;
+    width: 200%;
+  }
+
+  .calltoaction {
+    position: relative;
+  }
+
+  .middle {
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text {
+    background-color: #73956f;
+    color: #000000;
+    padding: 16px 32px;
+    border: #000000 solid 3px;
+  }
+}

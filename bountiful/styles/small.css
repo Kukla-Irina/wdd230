@@ -1,38 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Outfit:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Outfit:wght@300&display=swap");
 
 body {
-    font-family: 'Outfit', sans-serif;
-    background-color: #eeabc4;
-    border: solid 5px #000000;
-
+  font-family: "Outfit", sans-serif;
+  background-color: #eeabc4;
+  border: solid 5px #000000;
 }
 
-header, footer {
-    background-color: #883955;
-    border: solid 5px #000000;
-  }
+header,
+footer {
+  background-color: #883955;
+  border: solid 5px #000000;
+}
 
-  picture {
-    display: flex;
-    justify-content: center;
-  }
+picture {
+  display: flex;
+  justify-content: center;
+}
 
-  .footer1 {
-    display: flex;
-    padding: 3%;
-    color: #c0fdfb;
-  }
+.footer1 {
+  display: flex;
+  padding: 3%;
+  color: #c0fdfb;
+}
 
-  .footer2 {
-    padding: 3%;
-    color: #c0fdfb;
-  }
+.footer2 {
+  padding: 3%;
+  color: #c0fdfb;
+}
+
+.weatherdata {
+  display: flex;
+}
 
 h2 {
-    font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
 }
 
 header h2 {
@@ -41,313 +44,301 @@ header h2 {
 }
 
 h1 {
-    font-family: 'Courgette', cursive;
-    color: #73956f;
-    text-shadow: #000000 2px 2px 3px;
+  font-family: "Courgette", cursive;
+  color: #73956f;
+  text-shadow: #000000 2px 2px 3px;
 }
- 
+
+
 main {
-    border: solid 5px #000000;
+  border: solid 5px #000000;
 }
-
-
 
 .calltoaction {
-    border: 5px solid #140b0b;
-    display: flex;
+  border: 5px solid #140b0b;
+  display: flex;
 }
 
 .weather {
-    border: 5px solid #140b0b;
-    background-color: #c0fdfb;
+  border: 5px solid #140b0b;
+  background-color: #c0fdfb;
 }
 
 .drinks {
-    border: 5px solid #140b0b;
-    background-color: #c0fdfb;
- 
+  border: 5px solid #140b0b;
+  background-color: #c0fdfb;
 }
 
 .coastal {
-    border: 5px solid #140b0b;
-    background-color: #c0fdfb;
-
-
+  border: 5px solid #140b0b;
+  background-color: #c0fdfb;
 }
 
+form {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #140b0b;
+  padding: 0px 20px;
+  margin: 1%;
+}
 
-  form {
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px #140b0b;
-    padding: 0px 20px;
-    margin: 1%;
-  }
-  
-  form fieldset {
-    margin: 1%;
-    border: 1px solid #2c2e73;
-    border-radius: 10px;
-    padding: 3%;
-  }
-  
-  form label.top,
-  form div {
-    display: block;
-    padding-top: 1rem;
-    font-size: 0.8rem;
-  }
-  
-  form label.top input {
-    display: block;
-    font-size: 1rem;
-    border: solid 1px #2c2e73;
-    border-radius: 4px;
-    padding: 0.75rem;
-    color: rgb(56, 56, 56);
-    width: 100%;
-    max-width: 90%;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  form label.sbs {
-    display: block;
-    padding: 0.75rem;
-    color: rgb(56, 56, 56);
-  }
-  
-  textarea {
-    min-height: 10rem;
-    border-radius: 4px;
-    border: solid 1px #2c2e73;
-    width: 90%;
-  }
-  
-  form input.submitbtn {
-    border: none;
-    background-color: #008c45;
-    border-radius: 1rem;
-    padding: 0.75rem 1.5rem;
-    margin: 4%;
-    width: 96%;
-    max-width: 20rem;
-  }
-  
-  header {
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-  img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
-  
-  header img {
-    width: 60%;
-    height: auto;
-    border: 5px solid #140b0b;
-  }
+form fieldset {
+  margin: 1%;
+  border: 1px solid #2c2e73;
+  border-radius: 10px;
+  padding: 3%;
+}
 
-  .headings {
-    display: block;
-    padding: 5%;
-    align-items: center;
-  }
-  .headings1 {
-    display: block;
-    align-items: center;
-  }
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}
 
-  .social {
-    display: flex;
-    margin: 3%;
-  }
-  
-  img#weather-icon {
-    width: 50%;
-  }
-  
-  figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  figcaption {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* Small/Phone View ***************/
-  nav {
-    border: solid 5px #000000;
-  }
-  .navigation {
-    list-style: none;
-    padding: 0;
-  }
-  .navigation li:first-child {
-    display: block;
-  }
-  .navigation li {
-    display: none;
-  }
-  .navigation a {
-    display: block;
-    padding: 1rem;
-    text-align: left;
-    text-decoration: none;
-    font-weight: 700;
-    transition: 0.5s;
-    font-size: clamp(1rem, 2vmin, 1.5rem);
-    color: #000000;
-  }
-  
-  .navigation a.ham::before {
-    content: "🟰 ";
-  }
-  
-  .navigation a:hover {
-    color: white;
-    background-color: black;
-  }
-  
-  /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+form label.top input {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #2c2e73;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: rgb(56, 56, 56);
+  width: 100%;
+  max-width: 90%;
+  background-color: rgb(255, 255, 255);
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem;
+  color: rgb(56, 56, 56);
+}
+
+textarea {
+  min-height: 10rem;
+  border-radius: 4px;
+  border: solid 1px #2c2e73;
+  width: 90%;
+}
+
+form input.submitbtn {
+  border: none;
+  background-color: #008c45;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 4%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+header {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+header img {
+  width: 60%;
+  height: auto;
+  border: 5px solid #140b0b;
+}
+
+.headings {
+  display: block;
+  padding: 5%;
+  align-items: center;
+}
+.headings1 {
+  display: block;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  margin: 3%;
+}
+
+img#weather-icon {
+  width: 50%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Small/Phone View ***************/
+nav {
+  border: solid 5px #000000;
+}
+.navigation {
+  list-style: none;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 1rem;
+  text-align: left;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s;
+  font-size: clamp(1rem, 2vmin, 1.5rem);
+  color: #000000;
+}
+
+.navigation a.ham::before {
+  content: "🟰 ";
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
     <ul class="navigation responsive">
   */
-  .responsive li {
-    display: block;
-  }
-  
-  .responsive a.ham::before {
-    content: "✖️ ";
-  }
-  
-  
-  .cards h2 {
-    color: #2c2e73;
-  }
-  
-  .menu {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
-    background-color: #bddbb0;
-    text-align: center;
-  }
-  
-  .menu button {
-    padding: 1rem;
-    color: #140b0b;
-    background-color: #94af93;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  
-  section {
-    padding: 1%;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    align-items: center;
-    background-color: #bddbb0;
-    padding: 2%;
-  }
-  
-  .list {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .list section {
-    display: flex;
-    align-items: center;
-  }
-  
-  .grid section {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .grid section > * {
-    margin: 0.1rem;
-  }
-  
-  .list section {
-    flex-direction: row;
-    justify-content: left;
-  }
-  
-  .list section > * {
-    margin: 0 1rem;
-    text-align: left;
-  }
-  
-  .list section img {
-    display: none; /* smaller viewports only */
-  }
-  
-  .discoverimg picture {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: auto;
-  }
-  
-  .discoverimg p {
-    text-align: center;
-    border: #2c2e73 solid 1px;
-    margin: 2%;
-  }
-  
-  .lazyload {
-    box-shadow: 5px 5px 10px #140b0b;
-  }
-  
-  footer a {
-    text-decoration: none;
-    display: block;
-    color: #c0fdfb;
-  }
-  .fru {
-    object-fit: cover;
-    height: auto;
-    width: 100%;
+.responsive li {
+  display: block;
 }
 
+.responsive a.ham::before {
+  content: "✖️ ";
+}
 
-  
-  @media (max-width: 32.5em) {
-    
-    .calltoaction {
-      position: relative;
-    }
-    
-    .middle {
-      opacity: 1;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    
-    .text {
-      background-color: #73956f;
-      color: #000000;
-      padding: 16px 32px;
-      border: #000000 solid 3px;
-    }
+.cards h2 {
+  color: #2c2e73;
+}
 
+.menu {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: #bddbb0;
+  text-align: center;
+}
 
+.menu button {
+  padding: 1rem;
+  color: #140b0b;
+  background-color: #94af93;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 1%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  background-color: #bddbb0;
+  padding: 2%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list section {
+  display: flex;
+  align-items: center;
+}
+
+.grid section {
+  flex-direction: column;
+  text-align: center;
+}
+
+.grid section > * {
+  margin: 0.1rem;
+}
+
+.list section {
+  flex-direction: row;
+  justify-content: left;
+}
+
+.list section > * {
+  margin: 0 1rem;
+  text-align: left;
+}
+
+.list section img {
+  display: none; /* smaller viewports only */
+}
+
+.discoverimg picture {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.discoverimg p {
+  text-align: center;
+  border: #2c2e73 solid 1px;
+  margin: 2%;
+}
+
+.lazyload {
+  box-shadow: 5px 5px 10px #140b0b;
+}
+
+footer a {
+  text-decoration: none;
+  display: block;
+  color: #c0fdfb;
+}
+.fru {
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 32.5em) {
+  .calltoaction {
+    position: relative;
   }
-  
+
+  .middle {
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text {
+    background-color: #73956f;
+    color: #000000;
+    padding: 16px 32px;
+    border: #000000 solid 3px;
+  }
+}
