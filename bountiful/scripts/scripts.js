@@ -32,4 +32,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
   now
 );
 
-
+//order
+function createOrder() {
+  localStorage.setItem("mytime", Date.now());
+}

@@ -114,6 +114,42 @@ form label.top input {
   background-color: rgb(255, 255, 255);
 }
 
+.fruit1 {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #2c2e73;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: rgb(56, 56, 56);
+  width: 100%;
+  max-width: 90%;
+  background-color: rgb(255, 255, 255);
+}
+
+.fruit2 {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #2c2e73;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: rgb(56, 56, 56);
+  width: 100%;
+  max-width: 90%;
+  background-color: rgb(255, 255, 255);
+}
+
+.fruit3 {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #2c2e73;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: rgb(56, 56, 56);
+  width: 100%;
+  max-width: 90%;
+  background-color: rgb(255, 255, 255);
+}
+
 form label.sbs {
   display: block;
   padding: 0.75rem;
