@@ -104,6 +104,10 @@
     position: relative;
   }
 
+  .coastal {
+    position: relative;
+  }
+
   .home-image {
     opacity: 1;
     display: block;
@@ -149,7 +153,7 @@
     transition: 0.5s ease;
     position: absolute;
     opacity: 0;
-    top: 65%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);

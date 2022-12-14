@@ -106,6 +106,10 @@
     position: relative;
   }
 
+  .coastal {
+    position: relative;
+  }
+
   .middle {
     opacity: 1;
     position: absolute;
@@ -125,7 +129,7 @@
 
   .text2 {
     position: absolute;
-    top: 85%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
