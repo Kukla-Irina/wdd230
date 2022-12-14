@@ -364,4 +364,8 @@ footer a {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  header {
+    flex-direction: column;
+  }
 }
