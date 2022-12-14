@@ -53,9 +53,6 @@ function createOrder() {
   //Write the value back to local storage
   localStorage.setItem("drink", newValue);
 
-
-  // Write the value to the div
-  document.getElementById("drink").innerHTML = newValue;
-
 }
-
+const displayOrders = localStorage.getItem('drink');
+document.getElementById("drink").innerHTML = displayOrders;
