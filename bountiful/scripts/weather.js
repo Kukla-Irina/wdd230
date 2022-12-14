@@ -56,7 +56,7 @@ async function apiFetch() {
         var tempMax = document.getElementsByClassName("forecast-max");
 
 
-        for (var i = 0; i < data.length; i++) {
+        for (var i = 0; i < (data.length-2); i++) {
             var d = new Date(data[i].dt_txt);
             dayOfWeek[i].textContent = weekday[d.getDay()];
 
