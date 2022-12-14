@@ -48,7 +48,7 @@ async function apiFetch() {
         weekday[5] = "Fri";
         weekday[6] = "Sat";
 
-        var data = jsObject.list.filter((element)=>element.dt_txt.includes('18:00:00'));
+        var data = jsObject.list.filter((element)=>element.dt_txt.includes('00:00:00'));
         console.log(data);
 
         var dayOfWeek = document.getElementsByClassName("forecast-day");
