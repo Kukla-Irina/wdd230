@@ -33,6 +33,12 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 );
 
 //order
+
+const ordersDisplay = document.querySelector(".drink");
+const numOrders = Number(window.localStorage.getItem("order"));
+ordersDisplay.textContent = numOrders;
+
+
 function createOrder() {
-  localStorage.setItem("mytime", Date.now());
+  localStorage.setItem("order", Number());
 }
