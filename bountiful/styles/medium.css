@@ -55,12 +55,13 @@
     padding: 3%;
   }
 
-  form label.top input {
-    max-width: 70%;
-  }
 
-  textarea {
-    width: 70%;
+
+  form fieldset {
+    margin: 1%;
+    border: 1px solid #595961;
+    padding: 3%;
+    max-width: 50%;
   }
 
   .content {
@@ -129,7 +130,7 @@
 
   .text2 {
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
