@@ -108,6 +108,10 @@ form {
   font-size: 8em;
 }
 
+.drinks h2 {
+  margin: 8%;
+}
+
 
 form fieldset {
   margin: 1%;
