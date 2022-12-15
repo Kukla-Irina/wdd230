@@ -45,7 +45,6 @@ h1 {
   text-shadow: #000000 2px 2px 10px;
 }
 
-
 main {
   border: solid 5px #000000;
 }
@@ -84,17 +83,15 @@ main {
 form {
   padding: 0px 20px;
   margin: 1%;
-
 }
 
-.freshcontent h2{
+.freshcontent h2 {
   margin: 5%;
 }
 
 .freshcontent {
   border: 5px solid #140b0b;
 }
-
 
 .drinks {
   display: flex;
@@ -111,7 +108,6 @@ form {
 .drinks h2 {
   margin: 8%;
 }
-
 
 form fieldset {
   margin: 1%;
@@ -143,7 +139,7 @@ form label.top input {
 .fruit1 {
   display: block;
   font-size: 1rem;
-  border: solid 3px #595961;;
+  border: solid 3px #595961;
   border-radius: 4px;
   padding: 0.75rem;
   color: rgb(56, 56, 56);
@@ -155,7 +151,7 @@ form label.top input {
 .fruit2 {
   display: block;
   font-size: 1rem;
-  border: solid 3px #595961;;
+  border: solid 3px #595961;
   border-radius: 4px;
   padding: 0.75rem;
   color: rgb(56, 56, 56);
@@ -167,7 +163,7 @@ form label.top input {
 .fruit3 {
   display: block;
   font-size: 1rem;
-  border: solid 3px #595961;;
+  border: solid 3px #595961;
   border-radius: 4px;
   padding: 0.75rem;
   color: rgb(56, 56, 56);
@@ -184,7 +180,7 @@ form label.sbs {
 
 textarea {
   min-height: 10rem;
-  border: solid 3px #595961;;
+  border: solid 3px #595961;
   width: 90%;
 }
 
@@ -239,7 +235,6 @@ header img {
 img#weather-icon {
   width: 230%;
 }
-
 
 figure {
   display: flex;
@@ -299,7 +294,6 @@ nav {
   content: "✖️ ";
 }
 
-
 footer a {
   text-decoration: none;
   display: block;
@@ -315,7 +309,6 @@ footer a {
 .aboutcontent {
   display: flex;
   flex-direction: column;
- 
 }
 
 .about {
@@ -375,7 +368,6 @@ footer a {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-   
   }
 
   header {

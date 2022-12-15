@@ -34,62 +34,65 @@
       </div>
     </header>
     <main>
-        <nav>
-            <ul class="navigation">
-              <li><a class="ham" href="#">Menu</a></li>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="fresh.html">Fresh</a></li>
-              <li><a href="about.html">About Us</a></li>
-            </ul>
-          </nav>
-          <div class="freshcontent">
-            <h2>Order </h2>
-          <form>
-            
-            <fieldset>
-              <legend>Contacts</legend>
-              <label class="top"
-                >Fist Name* <input type="text" name="fname" required=
-              /></label>
-              <label class="top"
-                >Email*
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  placeholder="example@gmail.com"
-              /></label>
-              <label class="top"
-                >Phone*
-                <input type="tel" name="phone" required placeholder="79001112233"
+      <nav>
+        <ul class="navigation">
+          <li><a class="ham" href="#">Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="freshcontent">
+        <h2>Order</h2>
+        <form>
+          <fieldset>
+            <legend>Contacts</legend>
+            <label class="top"
+              >Fist Name* <input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Email*
+              <input
+                type="email"
+                name="email"
+                required
+                placeholder="example@gmail.com"
+            /></label>
+            <label class="top"
+              >Phone*
+              <input
+                type="tel"
+                name="phone"
+                required
+                placeholder="79001112233"
                 pattern="[0-9]{11,}"
-              /></label>
-            </fieldset>
-            <fieldset>
-                <legend>Create your mix</legend>
+            /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Create your mix</legend>
             <select class="fruit1" name="fruitlist1" required>
-                <option label="Choose Fruit" value=""></option>
-            </select><br>
+              <option label="Choose Fruit" value=""></option></select
+            ><br />
             <select class="fruit2" name="fruitlist2">
-                <option label="Choose Fruit" value=""></option>
-            </select><br>
+              <option label="Choose Fruit" value=""></option></select
+            ><br />
             <select class="fruit3" name="fruitlist3">
-                <option label="Choose Fruit" value=""></option>
+              <option label="Choose Fruit" value=""></option>
             </select>
-        </fieldset>
-            <fieldset>
-                <legend>Add special instructions if needed</legend>
-              <label class="top"><textarea name="description"></textarea></label>
-              <input type="hidden" name="datetime" />
-            </fieldset>
-            <input
-              class="submitbtn"
-              type="submit"
-              value="Order my drink"
-              onclick="createOrder()"
-            />
-          </form>
-        </div>
+          </fieldset>
+          <fieldset>
+            <legend>Add special instructions if needed</legend>
+            <label class="top"><textarea name="description"></textarea></label>
+            <input type="hidden" name="datetime" />
+          </fieldset>
+          <input
+            class="submitbtn"
+            type="submit"
+            value="Order my drink"
+            onclick="createOrder()"
+          />
+        </form>
+      </div>
     </main>
     <footer>
       <div class="footer1">
@@ -100,11 +103,10 @@
       </div>
       <p class="footer2">
         Last Updated: <span id="updated"></span><br />
-          <a target="_blank" href="https://openweathermap.org/"
-            >&#9728;
-            Weather data taken from openweathermap.org</a
-          >
-        <br>
+        <a target="_blank" href="https://openweathermap.org/"
+          >&#9728; Weather data taken from openweathermap.org</a
+        >
+        <br />
         <a
           href="https://www.google.com/maps/place/%D0%9A%D0%B0%D1%80%D0%BB%D1%81%D0%B1%D0%B0%D0%B4,+%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F,+%D0%A1%D0%A8%D0%90/@27.4238867,-120.5940003,4.56z/data=!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939"
           target="_blank"

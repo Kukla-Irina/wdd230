@@ -55,8 +55,6 @@
     padding: 3%;
   }
 
-
-
   form fieldset {
     margin: 1%;
     border: 1px solid #595961;
@@ -136,5 +134,4 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
-
 }
