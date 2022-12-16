@@ -143,7 +143,7 @@ button.addEventListener("click", function () {
 
     button.className = "reset";
     document.querySelector(".reset").value =
-      "Reset the page to make another order";
+      "Make another order";
     button.addEventListener("click", function () {
       orderInfo.className = "hidden";
       location.reload();
