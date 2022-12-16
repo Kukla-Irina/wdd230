@@ -82,16 +82,15 @@ main {
 
 form {
   padding: 0px 20px;
-  margin: 1%;
 }
 
-.freshcontent h2 {
-  margin: 5%;
-}
-
-.freshcontent {
+.headerfresh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 5px solid #140b0b;
 }
+
 
 .drinks {
   display: flex;
@@ -109,9 +108,22 @@ form {
   margin: 8%;
 }
 
+.hidden{
+  display: none;
+}
+
+
+
+.orderinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10%;
+}
+
 form fieldset {
   margin: 1%;
-  border: 1px solid #595961;
+  border: 3px solid #595961;
   padding: 3%;
   max-width: 80%;
 }
@@ -127,7 +139,7 @@ form div {
 form label.top input {
   display: block;
   font-size: 1rem;
-  border: solid 1px #595961;
+  border: solid 3px #595961;
   border-radius: 4px;
   padding: 0.75rem;
   color: rgb(56, 56, 56);
@@ -184,8 +196,18 @@ textarea {
   width: 90%;
 }
 
+
 form input.submitbtn {
-  border: none;
+  background-color: #883955;
+  border: #000000 solid 3px;
+  color: #c0fdfb;
+  padding: 0.75rem 1.5rem;
+  margin: 4%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form input.reset {
   background-color: #883955;
   border: #000000 solid 3px;
   color: #c0fdfb;

@@ -1,7 +1,6 @@
 //order
 
 function createOrder() {
-  console.log("run");
 
   //Check to see if the localstorage variable exists. If it does not, this is the first time coming to the page, and we need to initalize it to 0
   if (localStorage.getItem("drink") === null) {
@@ -17,4 +16,7 @@ function createOrder() {
 
   //Write the value back to local storage
   localStorage.setItem("drink", newValue);
+
+
+
 }
